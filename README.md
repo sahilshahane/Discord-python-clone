@@ -42,3 +42,9 @@ pipenv install <package_name>
 
 Example: pipenv install PyQt5
 ```
+
+### To start the Application
+
+```
+pipenv run start
+```
