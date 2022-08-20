@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [scripts]
-start = "python src/__init__.py"
+start = "python -m app"
 
 [packages]
 pyside2 = "*"

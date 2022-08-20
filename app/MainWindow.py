@@ -21,5 +21,6 @@ class MainApplication(QtWidgets.QWidget):
 
     @QtCore.Slot()
     def magic(self):
+        print("Clicked!")
         self.text.setText(random.choice(self.hello))
 

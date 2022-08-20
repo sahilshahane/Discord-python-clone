@@ -2,10 +2,11 @@ import sys
 import random
 from PySide2 import QtCore, QtWidgets, QtGui
 
-from MainWindow import MainApplication as MyApplication
-
+from app.MainWindow import MainApplication as MyApplication
+from app.screen2 import screen2
 
 if __name__ == "__main__":
+    screen2()
     app = QtWidgets.QApplication([])
 
     widget = MyApplication()
